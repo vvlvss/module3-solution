@@ -1,0 +1,48 @@
+@media (min-width: 992px) {
+    .content-wrapper {padding: 0;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .three {
+        float: bottom;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .two {
+        float: bottom;
+        width: 100%;
+    }
+    .three {
+        float: bottom;
+        width: 100%;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    background-color: rgb(156, 156, 156);
+    border: groove;
+    text-align: center;
+    margin-right: 15px;
+    border-color: black;
+}
+
+h3 {
+    text-align: center;
+    
+}
+h1 {
+    border: groove;
+    background-color: rgb(156, 156, 156);
+    border-color: black;
+}
